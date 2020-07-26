@@ -1,3 +1,49 @@
+
+#navbar{
+    position:fixed;
+    background-color: red;
+    top:0px;
+    width:100%;
+    left:0px;
+    border: gray solid 2px;
+
+}
+#navbar ul{
+    display:flex;
+}
+#navbar ul li{
+    flex:1;
+    border:black solid 1px;
+    margin: 0 12rem 0 12rem;
+    text-align: center;
+    list-style: none;
+}
+
+#container{
+    background-color: white;
+    border: green dotted 1px;
+    margin: 120px 100px 0 100px;
+    padding-bottom: 800px;
+
+}
+#container div{
+    border:red solid 1px;
+    display:flex;
+    justify-content: center;
+    gap: 5em;
+}
+
 #container div p{
+    display: flex;
     border: black solid 1px;
+    height:10em;
+    width:10em;
+    align-items: center;
+    justify-content: center;
+}
+#extender{
+    height:300px;
+}
+body{
+    background:rgba(207, 191, 191, 0.8);
 }
